@@ -277,11 +277,12 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
+    height: 120px;
     overflow: hidden;
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('https://s3.amazonaws.com/personal-site-tim/projects/home_new.jpeg');
+    background-color: #222;
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
