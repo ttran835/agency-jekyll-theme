@@ -1,0 +1,12 @@
+<!-- About Section -->
+<section id="carousel">
+  <div class="row">
+    {% for img in site.carousel %}
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail">
+        <img src="img/about/{{ img.pic }}.jpg" alt="..." />
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</section>

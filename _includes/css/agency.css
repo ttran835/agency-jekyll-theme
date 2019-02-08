@@ -277,11 +277,12 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
+    height: 120px;
+    overflow: hidden;
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('https://s3.amazonaws.com/personal-site-tim/projects/home_new.jpeg');
-    background-position: center center;
+    background-color: #222;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -358,6 +359,14 @@ section h3.section-subheading {
     section {
         padding: 150px 0;
     }
+}
+
+#carousel {
+    padding: 10px 0 10px 0
+}
+
+#carousel img {
+    width: 100%;
 }
 
 .service-heading {
